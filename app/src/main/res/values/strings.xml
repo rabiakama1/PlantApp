@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PlantApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_second_onboard">Get plant care guides</string>
+    <string name="title_first_onboard">Take a photo to identify the plant!</string>
+    <string name="title_continue">Continue</string>
+    <string name="get_started">Get Started</string>
+    <string name="title_plant_app">PlantApp Premium</string>
+    <string name="title_access_features">Access All Features</string>
+    <string name="title_try_free">Try free for 3 days</string>
+    <string name="title_paywall_bottom">After the 3-day free trial period you’ll be charged ₺274.99 per year unless you cancel before the trial expires. Yearly Subscription is Auto-Renewable</string>
+    <string name="title_get_started">Welcome to PlantApp</string>
+    <string name="title_get_started_subtitle">Identify more than 3000+ plants and 88% accuracy.</string>
+    <string name="title_get_started_subtitle_2">By tapping next, you are agreeing to PlantID Terms of Use &amp; Privacy Policy.</string>
+    <string name="title_morning">Good Morning</string>
+    <string name="title_afternoon">Good Afternoon</string>
+    <string name="title_evening">Good Evening</string>
+    <string name="title_night">Good Night</string>
+    <string name="title_feature_1">Unlimited</string>
+    <string name="subtitle_feature_1">Plant Identify</string>
+    <string name="title_feature_2">Faster</string>
+    <string name="subtitle_feature_2">Process</string>
+    <string name="title_feature_3">Detailed</string>
+    <string name="subtitle_feature_3">Plant care</string>
+    <string name="title_premium_type_1">1 Month</string>
+    <string name="subtitle_premium_type_1">$2.99/month, auto renewable</string>
+    <string name="title_premium_type_2">1 Year</string>
+    <string name="subtitle_premium_type_2">First 3 days free, then $529,99/year</string>
+    <string name="discount_premium_type_2">Save 50%</string>
+    <string name="title_search">Search for Plants</string>
+
+
+</resources>

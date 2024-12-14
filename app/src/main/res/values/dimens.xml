@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="xsmall_margin_default">4dp</dimen>
+    <dimen name="small_margin_default">8dp</dimen>
+    <dimen name="medium_margin_default">8dp</dimen>
+    <dimen name="recycler_view_margin_default">8dp</dimen>
+    <dimen name="cardView_width">200dp</dimen>
+    <dimen name="cardView_height">150dp</dimen>
+</resources>

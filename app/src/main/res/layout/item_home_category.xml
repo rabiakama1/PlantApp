@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/cardView_width"
+        android:layout_height="@dimen/cardView_width"
+        style="@style/RecyclerCardView"
+        android:foreground="?attr/selectableItemBackground">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_category"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/paywall_background" />
+
+            <TextView
+                android:id="@+id/txt_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:padding="@dimen/medium_margin_default"
+                style="@style/CardItemText"
+                tools:text="text"
+                android:textColor="@android:color/white"
+                android:ellipsize="end" />
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/getStartedFragment">
+
+    <fragment
+        android:id="@+id/getStartedFragment"
+        android:name="com.example.plantapp.presentation.get_started.GetStartedFragment"
+        android:label="GetStartedFragment" >
+        <action
+            android:id="@+id/action_getStartedFragment_to_onBoardingFragment"
+            app:destination="@id/onBoardingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/payWallFragment"
+        android:name="com.example.plantapp.presentation.paywall.PayWallFragment"
+        android:label="fragment_pay_wall"
+        tools:layout="@layout/fragment_pay_wall" >
+        <action
+            android:id="@+id/action_payWallFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+        <action
+            android:id="@+id/action_payWallFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.plantapp.presentation.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.plantapp.presentation.home.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.example.plantapp.presentation.onboarding.OnBoardingFragment"
+        android:label="OnBoardingFragment" >
+        <action
+            android:id="@+id/action_onBoardingFragment_to_payWallFragment"
+            app:destination="@id/payWallFragment" />
+    </fragment>
+</navigation>

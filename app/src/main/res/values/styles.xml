@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RecyclerCardView" parent="CardView">
+        <item name="cardCornerRadius">@dimen/small_margin_default</item>
+        <item name="android:layout_margin">@dimen/small_margin_default</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="CardItemText" parent="TextAppearance.AppCompat.Body2" />
+
+    <style name="CardItemSubTitleText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@android:color/darker_gray</item>
+    </style>
+
+
+
+</resources>

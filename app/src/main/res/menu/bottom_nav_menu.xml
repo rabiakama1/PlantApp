@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_diagnose"
+        android:icon="@drawable/healthcare"
+        android:title="Diagnose" />
+
+    <item
+        android:id="@+id/nav_scanner"
+        android:icon="@drawable/baseline_document_scanner_24"
+        android:title="Scanner" />
+
+    <item
+        android:id="@+id/nav_my_garden"
+        android:icon="@drawable/garden"
+        android:title="My Garden" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+
+</menu>
